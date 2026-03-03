@@ -162,11 +162,11 @@ def _check(resp):
 
 def run():
     log.info("="*60)
-    log.info("Bot X2Telegram + TG Channel → Telegram Group")
+    log.info("Bot X2Telegram + TG Channel → Bản tin U2U")
     log.info("="*60)
     log.info(f"📍 Twitter: @{TWITTER_USERNAME}")
-    log.info(f"📍 Telegram: @{TELEGRAM_CHANNEL_ID}")
-    log.info(f"📍 Post to: {TELEGRAM_CHAT_ID}")
+    log.info(f"📍 Fetch từ: @{TELEGRAM_CHANNEL_ID}")
+    log.info(f"📍 Post vào: {TELEGRAM_CHAT_ID}")
     log.info(f"🌐 Mode: Chỉ tiếng Việt (Google Translate)")
     log.info(f"⏱️ Tần suất: {CHECK_INTERVAL}s/lần")
     log.info("="*60)
